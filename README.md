@@ -6,4 +6,6 @@ The purpose of the lab is to create a controlled environment where cybersecurity
 
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
 
-
+🙌KEY TASKS COMPLETED
+✔Downloaded the following Tools(7-Zips, VirtualBox, and Kali Linux)
+✔✔Installed and Configured VirtualBox
