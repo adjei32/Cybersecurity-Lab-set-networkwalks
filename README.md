@@ -1,2 +1,2 @@
 # Cybersecurity-Lab-set-networkwalks
-My first Project on Github
+Week 01 | Practical Assignment WK1-PM1 | Cybersecurity Lab Setup
