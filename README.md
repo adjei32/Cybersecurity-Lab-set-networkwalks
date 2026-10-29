@@ -88,6 +88,8 @@ Step 3. Create the NAT Network
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
+<img width="958" height="539" alt="VirtualBox-Nat-Network config" src="https://github.com/user-attachments/assets/f4be98f2-c134-415a-a5c0-a9bfd553e64c" />
+
 
 ---
 
