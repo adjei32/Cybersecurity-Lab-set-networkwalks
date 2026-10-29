@@ -193,7 +193,7 @@ Gateway:
 10.0.0.1
 
 DNS:
-8.8.8.8
+10.0.0.1
 ```
 
 ---
@@ -204,10 +204,8 @@ Documenting problems is an important part of the project.
 
 ## Problem 1. Internet Connectivity After Static IP Configuration
 
-After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
-
-One workaround used during this lab was:
-
+After manually configuring the IPv4 settings, Internet connectivity was still failing so I open the command line 
+and entered the below command prompt 
 ```bash
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
@@ -217,22 +215,6 @@ The network connection was then restarted/rebooted and connectivity was tested a
 > **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
 
 ---
-
-## Problem 2. VirtualBox VT-x / Virtualization Error
-
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
-
 
 ---
 
@@ -286,8 +268,8 @@ This laboratory is intended strictly for education purposes only.
 
 # 👤 Author
 
-**Waqas Karim**\
-Cybersecurity Professional B084
+**Adjei Foster**\
+Cybersecurity Int B084L
 
 LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
 
