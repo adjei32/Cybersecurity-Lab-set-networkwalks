@@ -84,6 +84,11 @@ It can be used for activities such as:
 
 VirtualBox was installed as the hypervisor.
 
+Step 3. Create the NAT Network
+A dedicated NAT Network was created in VirtualBox.
+
+Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
+
 ---
 
 ## Step 3. Create the NAT Network
