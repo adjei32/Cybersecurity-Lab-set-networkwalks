@@ -84,18 +84,15 @@ It can be used for activities such as:
 
 VirtualBox was installed as the hypervisor.
 
-Step 3. Create the NAT Network
-A dedicated NAT Network was created in VirtualBox.
-
-Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
-<img width="958" height="539" alt="VirtualBox-Nat-Network config" src="https://github.com/user-attachments/assets/f4be98f2-c134-415a-a5c0-a9bfd553e64c" />
-
-
 ---
 
 ## Step 3. Create the NAT Network
 
 A dedicated NAT Network was created in VirtualBox.
+
+Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
+<img width="958" height="539" alt="VirtualBox-Nat-Network config" src="https://github.com/user-attachments/assets/01b00008-1b80-4844-960a-8a4d885078af" />
+
 
 Configuration:
 Network Name: NatNetwork
@@ -147,7 +144,7 @@ Example configuration:
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
-DNS: 8.8.8.8
+DNS: 10.0.0.1
 ```
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
