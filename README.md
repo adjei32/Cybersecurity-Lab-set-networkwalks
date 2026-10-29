@@ -150,8 +150,8 @@ DNS: 10.0.0.1
 ```
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+<img width="712" height="488" alt="Wired Network-Setup IP Address" src="https://github.com/user-attachments/assets/5a76e2d8-801c-4ee7-8419-8fafdd44f023" />
 
-![](4-screenshot-kali-network-settings.png)
 
 ---
 
