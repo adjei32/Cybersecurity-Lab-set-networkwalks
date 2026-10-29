@@ -127,7 +127,8 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+<img width="712" height="488" alt="Wired Network-Setup IP Address" src="https://github.com/user-attachments/assets/2502350e-deb3-4a9f-b05a-79c8909f4818" />
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
