@@ -271,7 +271,7 @@ This laboratory is intended strictly for education purposes only.
 **Adjei Foster**\
 Cybersecurity Int B084L
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn: [https://www.linkedin.com/in/foster-adjei-a99024412/]
 
 ---
 
